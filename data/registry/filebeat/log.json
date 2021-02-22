@@ -1,0 +1,8 @@
+{"op":"set","id":1}
+{"k":"filebeat::logs::native::8650752-204348-571215059","v":{"offset":0,"FileStateOS":{"idxhi":8650752,"idxlo":204348,"vol":571215059},"identifier_name":"native","id":"native::8650752-204348-571215059","prev_id":"","source":"C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\logs\\test.log","timestamp":[257999957260,1613732042],"ttl":-1,"type":"log"}}
+{"op":"set","id":2}
+{"k":"filebeat::logs::native::8650752-204348-571215059","v":{"prev_id":"","type":"log","id":"native::8650752-204348-571215059","source":"C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\logs\\test.log","offset":2,"timestamp":[257999957260,1613732042],"ttl":-1,"FileStateOS":{"idxhi":8650752,"idxlo":204348,"vol":571215059},"identifier_name":"native"}}
+{"op":"set","id":3}
+{"k":"filebeat::logs::native::8650752-204348-571215059","v":{"ttl":-1,"type":"log","identifier_name":"native","source":"C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\logs\\test.log","offset":253370,"timestamp":[257877817860,1613732153],"id":"native::8650752-204348-571215059","prev_id":"","FileStateOS":{"idxhi":8650752,"idxlo":204348,"vol":571215059}}}
+{"op":"set","id":4}
+{"k":"filebeat::logs::native::8650752-204348-571215059","v":{"prev_id":"","source":"C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\logs\\test.log","offset":253370,"ttl":-1,"type":"log","id":"native::8650752-204348-571215059","timestamp":[257961408960,1613732349],"FileStateOS":{"idxhi":8650752,"idxlo":204348,"vol":571215059},"identifier_name":"native"}}

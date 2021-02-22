@@ -1,0 +1,40 @@
+2021-02-16T17:00:58.867+0100	INFO	instance/beat.go:645	Home path: [C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64] Config path: [C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64] Data path: [C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\data] Logs path: [C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\logs]
+2021-02-16T17:00:58.887+0100	INFO	instance/beat.go:653	Beat ID: 7546b69f-c49c-4fc5-9254-720249bb123f
+2021-02-16T17:00:58.902+0100	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:89	add_cloud_metadata: hosting provider type not detected.
+2021-02-16T17:00:58.903+0100	INFO	[beat]	instance/beat.go:981	Beat info	{"system_info": {"beat": {"path": {"config": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64", "data": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\data", "home": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64", "logs": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\logs"}, "type": "filebeat", "uuid": "7546b69f-c49c-4fc5-9254-720249bb123f"}}}
+2021-02-16T17:00:58.904+0100	INFO	[beat]	instance/beat.go:990	Build info	{"system_info": {"build": {"commit": "aacf9ecd9c494aa0908f61fbca82c906b16562a8", "libbeat": "7.10.2", "time": "2021-01-12T23:11:24.000Z", "version": "7.10.2"}}}
+2021-02-16T17:00:58.904+0100	INFO	[beat]	instance/beat.go:993	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":2,"version":"go1.14.12"}}}
+2021-02-16T17:00:58.911+0100	INFO	[beat]	instance/beat.go:997	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2021-02-16T10:10:35.49+01:00","name":"AN1CHOVM28","ip":["10.246.9.48/22","172.30.32.1/20","172.17.208.1/20","::1/128","127.0.0.1/8"],"kernel_version":"10.0.14393.4225 (rs1_release.210127-1811)","mac":["00:50:56:85:08:09","00:15:5d:79:11:fa","00:15:5d:3f:3e:8d"],"os":{"family":"windows","platform":"windows","name":"Windows Server 2016 Standard","version":"10.0","major":10,"minor":0,"patch":0,"build":"14393.4225"},"timezone":"CET","timezone_offset_sec":3600,"id":"c25e2fd4-cb5e-4217-81fa-f55b5932fadb"}}}
+2021-02-16T17:00:58.912+0100	INFO	[beat]	instance/beat.go:1026	Process info	{"system_info": {"process": {"cwd": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64", "exe": "C:\\elasticstack\\filebeat-7.10.2-windows-x86_64\\filebeat-7.10.2-windows-x86_64\\filebeat.exe", "name": "filebeat.exe", "pid": 9084, "ppid": 8184, "start_time": "2021-02-16T17:00:54.521+0100"}}}
+2021-02-16T17:00:58.912+0100	INFO	instance/beat.go:299	Setup Beat: filebeat; Version: 7.10.2
+2021-02-16T17:00:58.912+0100	INFO	[publisher]	pipeline/module.go:113	Beat name: AN1CHOVM28
+2021-02-16T17:00:58.917+0100	WARN	beater/filebeat.go:178	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2021-02-16T17:00:58.917+0100	INFO	instance/beat.go:455	filebeat start running.
+2021-02-16T17:00:58.918+0100	INFO	[monitoring]	log/log.go:118	Starting metrics logging every 30s
+2021-02-16T17:00:58.922+0100	INFO	memlog/store.go:119	Loading data file of 'C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\data\registry\filebeat' succeeded. Active transaction id=0
+2021-02-16T17:00:58.924+0100	INFO	memlog/store.go:124	Finished loading transaction log file for 'C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\data\registry\filebeat'. Active transaction id=72
+2021-02-16T17:00:58.924+0100	WARN	beater/filebeat.go:381	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2021-02-16T17:00:58.925+0100	INFO	[registrar]	registrar/registrar.go:109	States Loaded from registrar: 1
+2021-02-16T17:00:58.925+0100	INFO	[crawler]	beater/crawler.go:71	Loading Inputs: 1
+2021-02-16T17:00:58.926+0100	INFO	log/input.go:157	Configured paths: [C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\logs\test.log]
+2021-02-16T17:00:58.926+0100	INFO	[crawler]	beater/crawler.go:141	Starting input (ID: 1455777890333506434)
+2021-02-16T17:00:58.926+0100	INFO	[crawler]	beater/crawler.go:108	Loading and starting Inputs completed. Enabled inputs: 1
+2021-02-16T17:00:58.927+0100	INFO	log/harvester.go:302	Harvester started for file: C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\logs\test.log
+2021-02-16T17:00:58.928+0100	INFO	cfgfile/reload.go:164	Config reloader started
+2021-02-16T17:00:58.928+0100	INFO	cfgfile/reload.go:224	Loading of config files completed.
+2021-02-16T17:01:28.921+0100	INFO	[monitoring]	log/log.go:145	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":93,"time":{"ms":93}},"total":{"ticks":280,"time":{"ms":280},"value":0},"user":{"ticks":187,"time":{"ms":187}}},"handles":{"open":202},"info":{"ephemeral_id":"ff7fc4e2-e62d-42b4-8ca1-26e87d7cafd1","uptime":{"ms":30257}},"memstats":{"gc_next":19238368,"memory_alloc":11858480,"memory_total":44545944,"rss":57503744},"runtime":{"goroutines":30}},"filebeat":{"events":{"added":2,"done":2},"harvester":{"open_files":1,"running":1,"started":1}},"libbeat":{"config":{"module":{"running":0},"reloads":1,"scans":1},"output":{"type":"console"},"pipeline":{"clients":1,"events":{"active":0,"filtered":2,"total":2}}},"registrar":{"states":{"current":1,"update":2},"writes":{"success":2,"total":2}},"system":{"cpu":{"cores":2}}}}}
+2021-02-16T17:01:45.308+0100	INFO	beater/filebeat.go:515	Stopping filebeat
+2021-02-16T17:01:45.308+0100	INFO	beater/crawler.go:148	Stopping Crawler
+2021-02-16T17:01:45.308+0100	INFO	beater/crawler.go:158	Stopping 1 inputs
+2021-02-16T17:01:45.308+0100	INFO	cfgfile/reload.go:227	Dynamic config reloader stopped
+2021-02-16T17:01:45.308+0100	INFO	[crawler]	beater/crawler.go:163	Stopping input: 1455777890333506434
+2021-02-16T17:01:45.308+0100	INFO	input/input.go:136	input ticker stopped
+2021-02-16T17:01:45.308+0100	INFO	log/harvester.go:329	Reader was closed: C:\elasticstack\filebeat-7.10.2-windows-x86_64\filebeat-7.10.2-windows-x86_64\logs\test.log. Closing.
+2021-02-16T17:01:45.308+0100	INFO	beater/crawler.go:178	Crawler stopped
+2021-02-16T17:01:45.308+0100	INFO	[registrar]	registrar/registrar.go:132	Stopping Registrar
+2021-02-16T17:01:45.308+0100	INFO	[registrar]	registrar/registrar.go:166	Ending Registrar
+2021-02-16T17:01:45.309+0100	INFO	[registrar]	registrar/registrar.go:137	Registrar stopped
+2021-02-16T17:01:45.317+0100	INFO	[monitoring]	log/log.go:153	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":93,"time":{"ms":93}},"total":{"ticks":280,"time":{"ms":280},"value":280},"user":{"ticks":187,"time":{"ms":187}}},"handles":{"open":200},"info":{"ephemeral_id":"ff7fc4e2-e62d-42b4-8ca1-26e87d7cafd1","uptime":{"ms":46656}},"memstats":{"gc_next":19238368,"memory_alloc":11934264,"memory_total":44621728,"rss":57634816},"runtime":{"goroutines":12}},"filebeat":{"events":{"added":2,"done":2},"harvester":{"closed":1,"open_files":0,"running":0,"started":1}},"libbeat":{"config":{"module":{"running":0},"reloads":1,"scans":1},"output":{"type":"console"},"pipeline":{"clients":0,"events":{"active":0,"filtered":2,"total":2}}},"registrar":{"states":{"current":1,"update":2},"writes":{"success":2,"total":2}},"system":{"cpu":{"cores":2}}}}}
+2021-02-16T17:01:45.317+0100	INFO	[monitoring]	log/log.go:154	Uptime: 46.6572519s
+2021-02-16T17:01:45.318+0100	INFO	[monitoring]	log/log.go:131	Stopping metrics logging.
+2021-02-16T17:01:45.318+0100	INFO	instance/beat.go:461	filebeat stopped.
